@@ -7,13 +7,7 @@
 
 set -o errexit
 
-screen_name=YOUR_SCREEN_NAME
-tweet_count=5 # the number of tweets you want to retrieve
-consumer_key=YOUR_CONSUMER_KEY
-consumer_secret=YOUR_CONSUMER_SECRET
-oauth_token=YOUR_AUTH_TOKEN
-oauth_secret=YOUR_AUTH_SECRET
-
+. $HOME/.twapi
 
 timestamp=`date +%s`
 nonce=`date +%s%T555555555 | openssl base64 | sed -e s'/[+=/]//g'`
