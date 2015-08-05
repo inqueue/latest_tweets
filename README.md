@@ -10,7 +10,7 @@ This is a bad news for someone who wants to fetch the latests tweets using pure 
 
 First you need to create an app in [dev.twitter.com](http://dev.twitter.com)
 
-With the app created,  only thing that you need to configure in the script are:
+With the app created,  put the following in $HOME/.twapi:
 
 * **screen_name:** your twitter username (e.g.: gianu).
 * **tweet_count:** the number of tweets you want to retrieve.
